@@ -1,0 +1,38 @@
+#firstheader{
+	background:rgba(30,30,30,1);color:white;
+	}
+	
+	#projectheaders{font-size:200%;font-weight:300}
+	#aboutsection{box-shadow:2px 5px 10px 10px rgba(240,240,240,0.6)}
+	#aboutul{list-style-type:none;font-family:trebuchet ms}
+#testimonialdiv1{box-shadow:2px 2px 5px 2px rgba(20,20,20,0.9); transition:1s ease-in-out}
+#testimonialdiv1:hover{transform:rotate3d(2,1,0.2,30deg);background-image:url(../images/portfolio/wedding1.jpg);background-size:35%;background-repeat:no}
+#testimonialdiv1 #thecustomers{transition:1s ease-in-out}
+#testimonialdiv1:hover #thecustomers{color:#01d28e}
+#testimonialdiv2{box-shadow:2px 2px 5px 2px rgba(20,20,20,0.9); transition:1s ease-in-out}
+#testimonialdiv2:hover{transform:rotate3d(2,0,0,40deg);background-image:url(../images/portfolio/wedding3.jpg);background-size:35%;background-repeat:no}
+#testimonialdiv2 #thecustomers{transition:1s ease-in-out}
+#testimonialdiv2:hover #thecustomers{color:#01d28e}
+#testimonialdiv3{box-shadow:2px 2px 5px 2px rgba(20,20,20,0.9); transition:1s ease-in-out}
+#testimonialdiv3:hover{transform:rotate3d(2,-1,-0.2,30deg);background-image:url(../images/portfolio/fashion1.jpg);background-size:35%;background-repeat:no}
+#testimonialdiv3 #thecustomers{transition:1s ease-in-out}
+#testimonialdiv3:hover #thecustomers{color:#01d28e}
+
+#testimonials{box-shadow:2px 5px 10px 10px rgba(240,240,240,0.6)}
+#thecustomers{font-weight:bold;}
+#bookingsection{background-image:url("../images/booking3.jpg");transition:2s ease-in-out;background-size:100%;
+box-shadow:2px 5px 10px 10px rgba(240,240,240,0.9)}
+#bookingsection:hover{background-image:url("../images/booking2.jpg");background-size:100%}
+#footersection{box-shadow:2px 5px 10px 10px rgba(200,200,200,0.9);background:rgba(230,230,230,0.9)}
+#footercontactsection{box-shadow:2px 5px 10px 10px rgba(200,200,200,0.9);transition:2s ease-in-out}
+#footercontactsection:hover{background:rgba(245,245,245,0.9);transform:scale3d(1.05,1.05,1.05)}
+#thedeveloper{color:#01d28e}
+#footerheadingline{border-bottom:2px solid #01d28e;width:8%;margin-left:46%}
+
+
+	
+
+
+
+
+

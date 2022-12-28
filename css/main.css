@@ -1,0 +1,33 @@
+
+
+
+/**for scroll-up
+===================**/
+.scrollup{
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    position: fixed;
+    bottom:50px;
+    right: 30px;
+    text-align: center;
+	background: #333;
+    border-radius: 5px;
+	border:1px solid #fff;
+	z-index: 99;
+}
+.scrollup i{
+    margin-top: 4px;
+    font-size: 20px;
+}
+.scrollup:hover{
+	background-color:#000;
+	transition:0.5s;
+	cursor:pointer;
+
+}
+
+
+
+
+
