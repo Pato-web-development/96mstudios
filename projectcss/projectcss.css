@@ -1,10 +1,15 @@
 #firstheader{
 	background:rgba(30,30,30,1);color:white;
 	}
-	
+	#portfoliosetting{}
 	#projectheaders{font-size:200%;font-weight:300}
 	#aboutsection{box-shadow:2px 5px 10px 10px rgba(240,240,240,0.6)}
 	#aboutp{list-style-type:none;font-family:trebuchet ms}
+	#secondcanonabout{position:relative;margin-top:-75%;transition:2s ease-in-out;opacity:0}
+	#firstcanonabout{position:relative;transition:2s ease-in-out}
+	#canonpicsdiv{}
+	#canonpicsdiv:hover #secondcanonabout{opacity:1}
+	#canonpicsdiv:hover #firstcanonabout{opacity:0}
 #testimonialdiv1{box-shadow:2px 2px 5px 2px rgba(20,20,20,0.9); transition:1s ease-in-out}
 #testimonialdiv1:hover{transform:rotate3d(2,1,0.2,30deg);background-image:url(../images/portfolio/wedding1.jpg);background-size:35%;background-repeat:no}
 #testimonialdiv1 #thecustomers{transition:1s ease-in-out}
@@ -18,13 +23,15 @@
 #testimonialdiv3 #thecustomers{transition:1s ease-in-out}
 #testimonialdiv3:hover #thecustomers{color:#01d28e}
 
-#testimonials{box-shadow:2px 5px 10px 10px rgba(240,240,240,0.6)}
+#testimonials{box-shadow:2px 5px 10px 10px rgba(240,240,240,0.6);}
+#testimonialsrow{width:90%;margin-left:5%}
 #thecustomers{font-weight:bold;}
-#bookingsection{background-image:url("../images/booking3.jpg");transition:2s ease-in-out;background-size:100%;
-box-shadow:2px 5px 10px 10px rgba(240,240,240,0.9)}
-#bookingsection:hover{background-image:url("../images/booking2.jpg");background-size:100%}
+#bookingsection{background-image:url("../images/booking1.jpg");transition:2s ease-in-out;background-size:110%;
+box-shadow:2px 5px 10px 10px rgba(240,240,240,0.9);width:90%;margin-left:5%}
+#bookingsection:hover{background-image:url("../images/booking2.jpg");background-size:110%}
+#bookingform{width:90%;margin-left:5%}
 #footersection{box-shadow:2px 5px 10px 10px rgba(200,200,200,0.9);background:rgba(230,230,230,0.9)}
-#footercontactsection{box-shadow:2px 5px 10px 10px rgba(200,200,200,0.9);transition:2s ease-in-out}
+#footercontactsection{box-shadow:2px 5px 10px 10px rgba(200,200,200,0.9);transition:2s ease-in-out;width:90%;margin-left:5%}
 #footercontactsection:hover{background:rgba(245,245,245,0.9);transform:scale3d(1.05,1.05,1.05)}
 #thedeveloper{color:#01d28e}
 #footerheadingline{border-bottom:2px solid #01d28e;width:8%;margin-left:46%}
